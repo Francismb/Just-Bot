@@ -35,6 +35,6 @@ public enum ImageLocation {
     }
 
     public String getLocation() {
-        return Configuration.home + location.replace("/", File.separator).toLowerCase();
+        return Configuration.home + location.replace("/", File.separator);
     }
 }

@@ -116,6 +116,7 @@ public class Configuration {
         }
 
         public boolean download() {
+            System.out.println(name);
             BufferedInputStream in = null;
             FileOutputStream fout = null;
             try {
